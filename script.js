@@ -8,7 +8,6 @@ entrar.addEventListener("click", function () {
     return window.alert("Olá, Tryber!");
   }
   return window.alert("Email ou senha inválidos");
-
 });
 
 
