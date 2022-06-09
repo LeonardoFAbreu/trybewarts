@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
-    
-    <header class="header">
-        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
-        <form class="trybewarts-login">
-            <div>
-                <input name="email" type="email" id="email" placeholder="Email">
-            </div>
-            <div>
-                <input name="password" type="password" id="password" placeholder="Senha">
-            </div>
-            <div>
-                <button class="botao-login">Entrar</button>
-            </div>
-        </form>
-    </header>
+  <header class="header">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form class="trybewarts-login">
+      <div>
+        <input name="email" type="email" id="email" placeholder="Email">
+      </div>
+      <div>
+        <input name="password" type="password" id="password" placeholder="Senha">
+      </div>
+      <div>
+        <button class="botao-login">Entrar</button>
+      </div>
+    </form>
+  </header>
+  <main>
+    <form action="" id="evaluation-form">
+      <div>
+        <input id="input-name" placeholder="Nome" type="text">
+        <input id="input-lastname" placeholder="Sobrenome" type="text">
+      </div>
+      <div>
+        <input id="input-email" placeholder="Email" type="text">
+        <select name="" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </div>
+      <div>
+        <label for="" id="label-family">Qual sua família?</label>
+      </div>
+      <div>
+        <input id="familia" type="radio" name="family" value="Frontend">
+        <label for="familia">Frontend</label>
+      </div>
+      <div>
+        <input id="familia" type="radio" name="family" value="Backend">
+        <label for="familia">Backend</label>
+      </div>
+      <div>
+        <input id="familia" type="radio" name="family" value="FullStack">
+        <label for="familia">Fullstack</label>
+      </div>
+      <div>
+        <input id="familia" type="radio" name="family" value="Frontend">
+        <label for="familia">Frontend</label>
+      </div>
+    </form>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+  </main>
+<!-- testando erro -->
 </body>
 </html>
