@@ -1,7 +1,7 @@
 /* eslint-disable no-else-return */
 const entrar = document.querySelector(".botao-login");
 // eslint-disable-next-line prefer-arrow-callback
-entrar.addEventListener("click", function formulario() {
+entrar.addEventListener("click", function() {
   const login = "tryber@teste.com";
   const senha = "123456";
   const usuario = document.querySelector("#email");
@@ -13,4 +13,4 @@ entrar.addEventListener("click", function formulario() {
   }
 });
 
-formulario();
+
