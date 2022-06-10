@@ -17,7 +17,6 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  
 }
 
 #trybewarts-forms-logo {
@@ -27,4 +26,3 @@ main {
 #house {
   width: 80px;
 }
-
