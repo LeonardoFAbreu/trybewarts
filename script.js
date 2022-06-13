@@ -9,3 +9,19 @@ entrar.addEventListener('click', () => { // cria evento de click para o botão
   }
   return window.alert('Email ou senha inválidos'); // retorna a janela com mensagem
 });
+
+
+// -------------- cria evento para habilitar o botão "Enviar"
+
+const botao = document.querySelector('#submit-btn'); 
+const enviar = document.querySelector('#agreement');
+botao.disabled = true;
+
+enviar.addEventListener ('click', function() {
+  if (enviar.checked) {
+    botao.disabled = false; //se o botão estiver marcado o 'desabilitado' será 'falso', então ele irá manter o botão 'habilitado' (Habilita o botão)
+  } else {
+    botao.disabled = true; // se o botão não estiver marcado o 'desabilitado' será 'verdadeiro', então ele irá 'desabilitar o botão' (Desabilita o botão)
+  }
+
+})
