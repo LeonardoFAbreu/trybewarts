@@ -7,7 +7,7 @@ entrar.addEventListener('click', () => { // cria evento de click para o botão
   if (usuario.value === login && password.value === senha) { // cria condição para verificar se oq foi digitado no email tem o mesmo valor do email/senha 'corretos'
     return window.alert('Olá, Tryber!'); // retorna uma janela com a mensagem
   }
-  return window.alert('Email ou senha inválidos'); // retorna a janela com mensagem
+  return window.alert('Email ou senha inválidos.'); // retorna a janela com mensagem
 });
 
 
