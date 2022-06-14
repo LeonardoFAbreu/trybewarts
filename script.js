@@ -25,3 +25,14 @@ enviar.addEventListener ('click', function() {
   }
 
 })
+
+
+//------------------ cria contagem de caracteres 
+
+const textArea = document.querySelector('#textarea');
+const counter = document.querySelector('#contador');
+counter.innerHTML = '500';
+
+counter.addEventListener('keyup', function() {
+  counter = 500 - textArea.value.length;
+});

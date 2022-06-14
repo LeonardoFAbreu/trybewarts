@@ -1,22 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inknut Antiqua, sans-serif;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: Inknut Antiqua, sans-serif;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 0px; 
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-family: Inknut Antiqua, sans-serif;
+  font-weight: bold;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
+#email {
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+#password {
+  width: 100px;
+  border-radius: 10px;
+  height: 40px;
+  border-style: none;
+}
+
+.botao-login {
+  width: 100px;
+  border-radius: 10px;
+  height: 40px;
+  border-style: none;
+  background-color: rgb(86, 29, 114);
+  color: white;
+  font-family: Inknut Antiqua, sans-serif;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+
 main {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  margin: 20px;
 }
 
 #trybewarts-forms-logo {
@@ -25,4 +86,108 @@ main {
 
 #house {
   width: 80px;
+}
+
+#conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
+.contents {
+  width: 60%;
+}
+
+
+.titulo-form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.informacoes-pessoais {
+  margin-bottom: 5px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-name {
+  border-radius: 5px;
+  border-style: none;
+}
+
+#input-lastname {
+  border-radius: 5px;
+  border-style: none;
+}
+
+#input-email {
+  border-radius: 5px;
+  border-style: none;
+    border-style: none;
+    outline: 0; 
+}
+
+#house {
+  border-radius: 5px;
+  border-style: none;
+}
+
+hr {
+  margin-top: 15px;
+  width: 650px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333533;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: large;
+  font-family: Inknut Antiqua, sans-serif
+}
+
+#submit-btn {
+  background-color: rgb(86, 29, 114);
+  color: white;
+  font-family: Inknut Antiqua, sans-serif;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+#counter-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(86, 29, 114);
+  width: 500px;
+  height: 250px;
+}
+
+textarea {
+  border-style: none;
+  outline: 0; /*Borda  interna, visível somente quando selecionada */
+  width: 100%;
+  height: 250px;
+  padding: 5px;
+  border-radius: 10px;
+} 
+
+.textarea {
+  text-align: left;
+}
+
+form {
+
 }
